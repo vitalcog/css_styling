@@ -1,0 +1,93 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+html{
+  background-image: url("img/bg.jpg");
+  font-family:Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+body{
+  background-color:white;
+  border-style: solid;
+  border-color:#ffd24a;
+  border-width:3px;
+  border-radius: 6px;
+  margin: 1% 8%;
+}
+header{
+  background-color: #ff8523;
+  height: 6.25em;
+  padding: 3%;
+}
+#logo img{
+  margin-bottom: 10px;
+}
+nav > a{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: white;
+  border-width: thin;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+h2{
+  font-size: 24px;
+  padding: 0% 3%;
+  color: #1fabe5;
+  height:
+}
+h3{
+  font-size: 20px;
+  color: #1fabe5;
+  padding: 0% 3%;
+}
+p{
+  padding: 0% 3%;
+}
+ul{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: lightgrey;
+  padding-bottom: 45px;
+}
+li{
+  font-weight: bold;
+}
+/* table stuff is problematic :( */
+table{
+  background-color: #1fabe5;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: lightgrey;
+  padding-bottom: 45px;
+}
+thead{
+  background-color: #1fabe5;
+}
+td{
+  background-color: white;
+}
+
+form{
+  background-color: lightgrey;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
